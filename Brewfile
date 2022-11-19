@@ -1,0 +1,5 @@
+brew 'tree'
+brew 'htop'
+brew 'tmux'
+brew 'jq'
+brew 'watch'
