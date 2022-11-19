@@ -69,14 +69,14 @@ PROMPT='%F{37}%2~%f %F{34}${vcs_info_msg_0_}%f%B%F{178}%#%b%f '
 # https://github.com/agkozak/zsh-z
 
 if [ -d ~/.zsh/zsh.z ]
-	then
-		source ~/.zsh/zsh.z/zsh-z.plugin.zsh
+  then
+    source ~/.zsh/zsh.z/zsh-z.plugin.zsh
 fi
 
 # Check if zsh-autosuggestions is installed
 # https://github.com/zsh-users/zsh-autosuggestions
 
 if [ -d ~/.zsh/zsh-autosuggestions ]
-	then
-		source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+  then
+    source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
