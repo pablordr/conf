@@ -13,13 +13,13 @@ setopt share_history                  # share history across sessions
 # Functions
 
 t() { 
-	# Improved shorthand for `tree` (source @jessfraz/dotfiled)
-  	tree -aC -I '.git' --dirsfirst "$@" | less -FRNX 
+  # Improved shorthand for `tree` (source @jessfraz/dotfiled)
+  tree -aC -I '.git' --dirsfirst "$@" | less -FRNX 
 }
 
 ban_host() {
-	# Pastes a domain from the clipboard into /etc/hosts (mac only)
-	sudo -- sh -c "echo '127.0.0.1       $(pbpaste)' >> /etc/hosts"
+  # Pastes a domain from the clipboard into /etc/hosts (mac only)
+  sudo -- sh -c "echo '127.0.0.1       $(pbpaste)' >> /etc/hosts"
 }
 
 # Aliases
